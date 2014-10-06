@@ -17,12 +17,12 @@
 ---
 containers:
   - "JavaBuildpack::Container::DistZip"
-#  - "JavaBuildpack::Container::Groovy"
-#  - "JavaBuildpack::Container::JavaMain"
-#  - "JavaBuildpack::Container::PlayFramework"
-#  - "JavaBuildpack::Container::Ratpack"
-#  - "JavaBuildpack::Container::SpringBoot"
-#  - "JavaBuildpack::Container::SpringBootCLI"
+  - "JavaBuildpack::Container::Groovy"
+  - "JavaBuildpack::Container::JavaMain"
+  - "JavaBuildpack::Container::PlayFramework"
+  - "JavaBuildpack::Container::Ratpack"
+  - "JavaBuildpack::Container::SpringBoot"
+  - "JavaBuildpack::Container::SpringBootCLI"
   - "JavaBuildpack::Container::Tomcat"
 
 # In order to use Oracle JREs instead of OpenJDK, you must comment out the OpenJDK line and uncomment the Oracle line.
@@ -39,5 +39,5 @@ frameworks:
 #  - "JavaBuildpack::Framework::PlayFrameworkAutoReconfiguration"
 #  - "JavaBuildpack::Framework::PlayFrameworkJPAPlugin"
   - "JavaBuildpack::Framework::PostgresqlJDBC"
-#  - "JavaBuildpack::Framework::SpringAutoReconfiguration"
-#  - "JavaBuildpack::Framework::SpringInsight"
+  - "JavaBuildpack::Framework::SpringAutoReconfiguration"
+  - "JavaBuildpack::Framework::SpringInsight"
